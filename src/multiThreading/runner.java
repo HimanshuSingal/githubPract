@@ -5,7 +5,8 @@ import java.util.Date;
 public class runner {
 	public static void main(String args[])
 	{
-		Multiplier m=new naiveMultiplier(1000);
+		//Check for matrix size =500
+		Multiplier m=new naiveMultiplier(500);
 		long t1,t2;
 		
 		t1=(new Date()).getTime();
