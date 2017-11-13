@@ -5,4 +5,13 @@ git log --pretty=oneline
 git log --stat
 git log --graph
 
-git diff
+  //  compare the working directory with local repository. With last commit
+
+   git diff HEAD [filename]
+
+    // compare the working directory with index. Index stands for staged
+    git diff [filename]
+
+//between two commits, get commit id from git log
+git diff 0a36bc 212f
+ 
