@@ -1,0 +1,8 @@
+Git commands:
+git log
+git log -p -2
+git log --pretty=oneline
+git log --stat
+git log --graph
+
+git diff
