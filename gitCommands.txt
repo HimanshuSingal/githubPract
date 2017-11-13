@@ -15,3 +15,5 @@ git log --graph
 //between two commits, get commit id from git log
 git diff 0a36bc 212f
  
+git checkout -b addition
+test
